@@ -6,7 +6,7 @@ body{
     overflow-x: hidden;
     font-family: "Lato", sans-serif;
     background-color: whitesmoke;
-    background: url(images/Rectangle\ 20bg-shape1.svg) no-repeat;
+    background: url(images/bg-1.png) no-repeat;
     background-size: cover;
 }
 
@@ -71,11 +71,11 @@ h1{
     justify-content: center;
     background-color: #FFD5BD;
     align-content: center;
-    bottom: 0px;
+    bottom: `0px;
 }
 
 svg{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 
@@ -83,11 +83,45 @@ svg{
 @media only screen and (max-width: 768px) {
     body{
         background-color: #fff;
-        background: none;
+        background: url(images/bg-2.png);
     }
+    
     .navbar{
         background: rgba(197,220,223,100%) !important;
     }
 
-
+    .main-content{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 100px;
+        background-size: cover;
+        padding-top: 0px;
+        text-align: center;
+    
+    }
+    .ellipse-1{
+        display: none;
+    }
+    h1{
+        color: #C5DCE9;
+        font-size: 72px;
+        font-family: "Lato", sans-serif;
+    }
+    
+    .intro{
+        color: #77A8B2;
+        font-size: 24px;
+        font-family: "Lato", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-weight: 700;
+    
+    }
+    /*Footer*/
+    .footer{
+       display: none;
+    }
+  
 }
