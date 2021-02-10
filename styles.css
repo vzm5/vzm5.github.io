@@ -8,6 +8,7 @@ body{
     background-color: whitesmoke;
     background: url(images/bg-1.png) no-repeat;
     background-size: cover;
+    background-position: top;
 }
 
 .navbar{
@@ -44,9 +45,6 @@ body{
     gap: 100px;
 
 }
-.ellipse-1{
-
-}
 
 h1{
     color: #C5DCE9;
@@ -64,22 +62,20 @@ h1{
     font-weight: 700;
 
 }
-/*Footer*/
-.footer{
-    height: 150px;
+/*Socials*/
+.socials{
     display: flex;
     justify-content: center;
-    background-color: #FFD5BD;
-    align-content: center;
-    bottom: `0px;
+    margin-top: -100px;
+
 }
 
 svg{
     margin-left: 20px;
 }
 
-
-/* Medium devices (landscape tablets, 768px and up) */
+/*
+/* Medium devices (landscape tablets, 768px and up) 
 @media only screen and (max-width: 768px) {
     body{
         background-color: #fff;
@@ -119,9 +115,9 @@ svg{
         font-weight: 700;
     
     }
-    /*Footer*/
+    /*Footer
     .footer{
        display: none;
     }
-  
+  */
 }
