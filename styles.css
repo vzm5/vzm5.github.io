@@ -6,9 +6,7 @@ body{
     overflow-x: hidden;
     font-family: "Lato", sans-serif;
     background-color: whitesmoke;
-    background: url(images/bg-1.png) no-repeat;
-    background-size: cover;
-    background-position: top;
+    
 }
 
 .navbar{
@@ -33,7 +31,8 @@ body{
 /*Body*/
 .body{
     height: 700px;
-
+    background: url(images/bg-1.png) no-repeat;
+    background-size: cover;
 }
 .main-content{
     margin-top: 100px;
@@ -58,16 +57,31 @@ h1{
     font-size: 24px;
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+
+}
+/*Projects*/
+.projects{
+    height: 500px;
+    background-color: rgba(197,220,223,0.7);
+    display: flex;
+    justify-content: center;
+}
+h2{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 48px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 700;
-
 }
 /*Socials*/
 .socials{
     display: flex;
     justify-content: center;
-    margin-top: -100px;
-
+    background-color: rgba(197,220,223,0.7);
 }
 
 svg{
