@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Lato", sans-serif;
+    background-color: whitesmoke;
+    background: url(images/Rectangle\ 20bg-shape1.svg) no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    background: rgba(197,220,223,0.7) !important;
+    padding: 20px 0;
+    letter-spacing: 0.3em;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    padding-left: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #77A8B2;
+}
+/*Body*/
+.body{
+    height: 700px;
+
+}
+.main-content{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 100px;
+
+}
+.ellipse-1{
+
+}
+
+h1{
+    color: #C5DCE9;
+    font-size: 72px;
+    font-family: "Lato", sans-serif;
+    padding-bottom: 10px;
+}
+
+.intro{
+    color: #77A8B2;
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+
+}
+/*Footer*/
+.footer{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: #FFD5BD;
+    align-content: center;
+    bottom: 0px;
+}
+
+svg{
+    margin-left: 10px;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: #fff;
+        background: none;
+    }
+    .navbar{
+        background: rgba(197,220,223,100%) !important;
+    }
+
+
+}
