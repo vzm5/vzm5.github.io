@@ -95,14 +95,19 @@ svg{
 
 /*CONTACT PAGE*/
 .contact{
-    height: 1080px;
-    width: auto;
-    background-image: url(images/inverted-circle.svg);
+    background: url(images/inverted-circle.svg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
 
-
+@media only screen and (max-width:1440px){
+    .contact{
+        background-image: none;
+    }
+}
 /*
 /* Medium devices (landscape tablets, 768px and up) 
 @media only screen and (max-width: 768px) {
