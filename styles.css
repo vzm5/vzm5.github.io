@@ -229,6 +229,15 @@ h2{
     font-size: 18px;
     max-width: 50%;
 }
+.about .behance{
+    text-decoration: none;
+    color: rgba(197,220,223,100%);
+}
+.about .behance:hover{
+    text-decoration: none;
+    color: #77A8B2;
+}
+
 .about h2{
     margin-top: 0;
     color: rgba(197,220,223,100%);
