@@ -98,7 +98,9 @@ h2{
 .socials svg{
     margin-left: 20px;
 }
-
+.socials img{
+    margin-left: 20px;
+}
 
 /*CONTACT PAGE*/
 .contact{
@@ -124,10 +126,18 @@ h2{
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
+.h2-blue-top{
+    margin-top: 100px;
+    color: rgba(197,220,223,100%);
+    font-size: 48px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
 
 .contact-body{
     padding-right: 200px;
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,7 +145,7 @@ h2{
     align-content: center;
 }
 .contant-body-links{
-    margin-left: 150px;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -158,6 +168,95 @@ h2{
 @media only screen and (max-width:1200px){
     .contact{
         background-image: none;
+    }
+}
+
+/*ABOUT ME*/
+.about{
+    background: url(images/about-bg.svg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.about-bio{
+    display: flex;
+    flex-direction: column;
+}
+.about-bio img{
+    height: 200px;
+    max-width: auto;
+}
+.about-bio p{
+    font-size: 18px;
+    max-width: 50%;
+}
+.about h2{
+    margin-top: 0;
+    color: rgba(197,220,223,100%);
+    font-size: 48px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.about-bio h3{
+    color: #77A8B2;
+}
+
+.about .bio-row-1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.about .bio-col-1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.about .bio-row-2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.about ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    color: #77A8B2;
+  }
+  
+a.about-btn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 25%;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    letter-spacing: 0.3em;
+    color: #77A8B2;
+}
+.about-btn.btn-light:hover{
+    color: white;
+}
+
+/*ABOUT ME MEDIA ONLY SCREEN*/
+@media only screen and (max-width:1200px){
+    .about{
+        background-image: none;
+        background-color:#FFFEFD;
     }
 }
 /*
