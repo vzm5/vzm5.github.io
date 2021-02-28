@@ -274,6 +274,10 @@
     */
     /*ABOUT ME*/
     .about{
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+        width: 100%;
         background: url(images/about-bg.svg);
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -283,6 +287,7 @@
     .about-bio{
         display: flex;
         flex-direction: column;
+        height: 100%;
     }
     .about-bio img{
         height: 200px;
@@ -314,7 +319,7 @@
     }
 
     .about .bio-row-1{
-        margin-top: 100px;
+        margin-top: 2%;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -759,4 +764,110 @@
         background-color: #EEEEEE;
         border-radius: 25px;
     }
+    /*ABOUT*/
+    .about{
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+        width: 100%;
+        background: url(images/about-bg.svg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .about-bio{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .about-bio img{
+        height: 200px;
+        max-width: auto;
+    }
+   
+    .about .behance{
+        text-decoration: none;
+        color: rgba(197,220,223,100%);
+    }
+    .about .behance:hover{
+        text-decoration: none;
+        color: #77A8B2;
+    }
+
+    .about h2{
+        margin-top: 0;
+        color: rgba(197,220,223,100%);
+        font-size: 25px;
+        font-family: "Lato", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
+    .about-bio h3{
+        color: #77A8B2;
+        font-size: 18px;
+    }
+
+    .about .bio-row-1{
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+    .about .bio-col-1{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .about .bio-row-2{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        
+    }
+
+    .about p{
+        font-size: 12px;
+        max-width: 90%;
+        text-align: center;
+        letter-spacing: 0.05em;
+    }
+    .about ul {
+        margin: 20px;
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        font-family: "Lato", sans-serif;
+        text-transform: uppercase;
+        color: #77A8B2;
+    }
+
+    .about li{
+        font-size: 0.8em;
+
+    }
+    
+    a.about-btn{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 0.2em;
+        color: #77A8B2;
+        padding-bottom: 50px;
+    }
+    .about-btn.btn-light:hover{
+        color: white;
+    }
+
 }
