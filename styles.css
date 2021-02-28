@@ -346,8 +346,8 @@
         color: white;
     }
 
-    /**iPad**/
-@media only screen and (max-width:1060px){
+/**iPad**/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
     .navbar{
         flex-direction: column;
         align-items: flex-start;
@@ -444,10 +444,100 @@
         text-align: center;
         display: block;
     }
+    /*CONTACT*/
+    .contact{
+        background: none;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .contact-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+    }
+    .h2-blue{
+        margin-top: 5%;
+        color: rgba(197,220,223,100%);
+        font-size: 24px;
+        font-family: "Lato", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
+    .h2-blue-top{
+        margin-top: 100px;
+        color: rgba(197,220,223,100%);
+        font-size: 24px;
+        font-family: "Lato", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
+ 
+    .contact-body{
+        padding-right: 0px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: #EEEEEE;
+        padding-bottom: 20px;
+        border-radius: 25px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .contant-body-links{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start;
+    }
+    .col .contant-body-links{
+       
+        font-size: 1.2em;
+        letter-spacing: 0.09em;
+        padding-top: 10%;
+    }
+    .contact-links{
+        font-size: 1.2em;
+        letter-spacing: 0.09em;
+        color: #77A8B2;
+        text-decoration: none;        
+    }
+    .contact-links:hover{
+        color: rgba(197,220,223,100%);
+        text-decoration: none;
+    }
+    .resume{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    .resume a.about-btn{
+        padding: 20px;
+        margin: 0;
+        font-size: 1em;
+        letter-spacing: 0.2em;
+        background-color: #EEEEEE;
+        border-radius: 25px;
+    }
 }
+    
+
 
 /*PHONE*/
-@media only screen and (max-width:680px){
+@media only screen and (max-width:767px){
     .navbar{
         flex-direction: column;
         align-items: flex-start;
@@ -564,5 +654,93 @@
         margin-left: 20px;
         
     }
+    /*CONTACT*/
+    .contact{
+        background: none;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .contact-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+    }
+    .h2-blue{
+        margin-top: 5%;
+        color: rgba(197,220,223,100%);
+        font-size: 24px;
+        font-family: "Lato", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
+    .h2-blue-top{
+        margin-top: 100px;
+        color: rgba(197,220,223,100%);
+        font-size: 24px;
+        font-family: "Lato", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
  
+    .contact-body{
+        padding-right: 0px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: #EEEEEE;
+        padding-bottom: 20px;
+        border-radius: 25px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .contant-body-links{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start;
+    }
+    .col .contant-body-links{
+       
+        font-size: 1.2em;
+        letter-spacing: 0.09em;
+        padding-top: 10%;
+    }
+    .contact-links{
+        font-size: 1.2em;
+        letter-spacing: 0.09em;
+        color: #77A8B2;
+        text-decoration: none;        
+    }
+    .contact-links:hover{
+        color: rgba(197,220,223,100%);
+        text-decoration: none;
+    }
+
+    .resume{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    .resume a.about-btn{
+        padding: 20px;
+        margin: 0;
+        font-size: 1em;
+        letter-spacing: 0.2em;
+        background-color: #EEEEEE;
+        border-radius: 25px;
+    }
 }
