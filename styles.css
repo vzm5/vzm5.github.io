@@ -69,7 +69,7 @@
     }
     /*Body*/
     .body{
-        height: 1080px;
+        height: 100vh;
         width: auto;
         background: url(images/bg-1.png) no-repeat;
         background-size: cover;
@@ -371,7 +371,14 @@
 
     /**PORTFOLIO PAGE**/
     .portfolio{
-        overflow-x: visible;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        background: url(images/inverted-circle.svg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
     }
     .project-box img{
         width: 550px;
@@ -383,7 +390,7 @@
         margin: 10%;
     }
     .projects-nav div{
-        margin: 100px 330px 100px 150px;
+        margin: 0px 200px 200px 150px;
     }
 
 /********************************************iPad*************************************/
@@ -435,7 +442,7 @@
         
     }
     .main-content{
-        margin-top: 0px;
+        margin-top: 200px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -638,12 +645,12 @@
         margin: 0;
         padding: 0;
         width: 100%;
-        max-height: 800px;
+        max-height: 1800px;
         background: url(images/bg-1-mobile.png) no-repeat;
         background-size: cover;
     }
     .main-content{
-        margin-top: 0px;
+        margin-top: 200px;
         display: flex;
         flex-direction: column;
         justify-content: center;
