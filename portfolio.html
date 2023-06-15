@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Link Swiper-->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
         <!-- Bootstrap CSS-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="styles.css">
@@ -27,62 +29,62 @@
             </ul>
         </div>
     </nav>   
-    <!--Projects Boxes
-    <div class="d-flex flex-column justify-content-center align-items-center">
-        <h1>2021</h1>
-        <div class="project-box d-flex flex-column justify-content-center align-items-center">
-        <h3>Responsive Custom Layout for GammaSports.com</h3>
-        <img src="images/team.png" alt="sporting goods website">
-        <p>Custom landing pages for each major product category.</p>
-        <p>JavaScript/HTML/CSS/NetSuite</p>
-        </div>
-    </div>
-    --> 
-    
-    <div class="projects-nav d-flex flex-row justify-content-start align-items-center"> 
-        <div class="d-flex flex-row align-items-center">
-        <div class="">
-            <H1>Projects</H1>
-        </div>
-        <div class="projects-dates">
-            <h2>2022</h2>
-            <h2>2021</h2>
-            <h2>2020</h2>
-        </div>
-        </div> 
-        <div class="d-flex flex-column justify-content-center align-items-center">
-            <h1>2021</h1>
-            <div class="project-box d-flex flex-column justify-content-center align-items-center">
-            <h3>Responsive Custom Layout for GammaSports.com</h3>
-            <img src="images/team.png" alt="sporting goods website">
-            <p>Custom landing pages for each major product category.</p>
-            <p>JavaScript/HTML/CSS/NetSuite</p>
+    <!--End Nav-->
+    <!--Sliding Cards Start-->
+    <section class="portfolio-container">
+        <div class="swiper mySwiper container">
+            <div class="swiper-wrapper content">
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="name-project">
+                            <span class="name">Website</span>
+                            <span class="project">Web Development</span>
+                            <span class="description">quick description about project  *WORK IN PROGRESS 2023*</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="name-project">
+                            <span class="name">Website</span>
+                            <span class="project">Web Development</span>
+                            <span class="description">quick description about project *WORK IN PROGRESS 2023*</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="d-flex flex-column justify-content-center align-items-center">
-            <h1>2021</h1>
-            <div class="project-box d-flex flex-column justify-content-center align-items-center">
-            <h3>Responsive Custom Layout for GammaSports.com</h3>
-            <img src="images/team.png" alt="sporting goods website">
-            <p>Custom landing pages for each major product category.</p>
-            <p>JavaScript/HTML/CSS/NetSuite</p>
-            </div>
-        </div>
-        <div class="d-flex flex-column justify-content-center align-items-center">
-            <h1>2021</h1>
-            <div class="project-box d-flex flex-column justify-content-center align-items-center">
-            <h3>Responsive Custom Layout for GammaSports.com</h3>
-            <img src="images/team.png" alt="sporting goods website">
-            <p>Custom landing pages for each major product category.</p>
-            <p>JavaScript/HTML/CSS/NetSuite</p>
-            </div>
-        </div>
-    </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <!--Initialize Swiper-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
+    <script>
+        const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'vertical',
+        loop: true,
 
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
 
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
 
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+        });
 
+    </script>
 
      <!--Socials-->
      <div class="socials fixed-bottom">

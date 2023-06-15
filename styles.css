@@ -370,22 +370,86 @@
     }
 
     /**PORTFOLIO PAGE**/
-    .portfolio{
-        overflow-x: visible;
-    }
-    .project-box img{
-        width: 550px;
-    }
-    div.projects-dates h2{
-        color: rgb(105, 105, 105);
-    }
-    .projects-nav{
-        margin: 10%;
-    }
-    .projects-nav div{
-        margin: 100px 330px 100px 150px;
+    .portfolio-container{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
     }
 
+    .container{
+        margin: 0;
+        padding: 0;
+        width: 50%;
+        box-sizing: border-box;
+        
+    }
+
+    section .card .image{
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+        padding: 3px;
+        background: #7d2ae8;
+        
+    }
+
+    section .card .image img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #fff;
+        
+    }
+
+    .card{
+        position: relative;
+        border-radius: 20px;
+        background-color: #fff;
+        margin: 20px 0;
+        width: 680px;
+    }
+
+    .card::before{
+        content: "";
+        position: absolute;
+        height: 60%;
+        width:100%;
+        border-radius: 20px 20px 0 0;
+    }
+    .card .card-content{
+        padding: 75px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #77A8B2;
+        position: relative;
+        z-index: 100;
+    }
+
+    .card .name-project{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 200px;
+        color: #333;
+    }
+
+    .name-project .name{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .name-project .project .description{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .swiper {
+        width: 950px;
+        height: 900px;
+      }
 /********************************************iPad*************************************/
 @media only screen and (min-width: 768px) and (max-width: 1023px){
     .navbar{
